@@ -1,0 +1,119 @@
+CREATE TABLE car_info(
+    system_id int PRIMARY KEY AUTO_INCREMENT,
+    model varchar(50),
+    year int,
+    plate_id INT,
+    image_1 varchar(100),
+    image_2 varchar(100),
+    image_3 varchar(100),
+    image_4 varchar(100),
+    country varchar(50),
+    city varchar(50),
+    rental_price int,
+    distance_driven_km int,
+    color varchar(50),
+    description text
+   );
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    'Dodge Viper SRT',
+    2013,
+    123,
+    'images/2013_Dodge_SRT_Viper.png',
+    'images/2013_Dodge_SRT_Viper2.png',
+    'images/2013_Dodge_SRT_Viper3.png',
+    'images/2013_Dodge_SRT_Viper4.png',
+    'Italy',
+    'Milan',
+    250,
+    1222,
+    'black',
+    'The 2013 Dodge SRT Viper is a high-performance sports car that embodies raw power and thrilling driving experiences. Featuring a mighty 8.4-liter V10 engine producing around 640 horsepower, paired with a 6-speed manual transmission, this vehicle offers exhilarating acceleration and precise handling. Its aggressive exterior design, low-slung stance, and iconic Viper styling cues make it a head-turner on the road. With its impressive performance capabilities, the Viper SRT is an ideal choice for enthusiasts seeking an adrenaline-filled driving adventure.'
+);
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    'Ford Shelby GT500',
+    2013,
+    123,
+    'images/2013 Ford Shelby GT500.png',
+    'images/2013 Ford Shelby GT500_1.png',
+    'images/2013 Ford Shelby GT500_2.png',
+    'images/2013 Ford Shelby GT500_3.png',
+    'Egypt',
+    'Cairo',
+    250,
+    1222,
+    'black',
+    'The 2013 Ford Shelby GT500 is an American muscle car that combines power, performance, and iconic heritage. Equipped with a supercharged 5.8-liter V8 engine generating an impressive 662 horsepower, paired with a six-speed manual transmission, this car offers exhilarating acceleration and a thrilling driving experience. Its muscular exterior design, distinctive Shelby styling elements, and racing-inspired features make it stand out on the road. With its remarkable performance and iconic status, the Shelby GT500 is an ideal choice for those seeking a blend of raw power and classic American muscle car heritage.'
+);
+
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    ' Chevrolet Trax',
+    2024,
+    123,
+    'images/2024 Chevrolet Trax.png',
+    'images/2024 Chevrolet Trax1.png',
+    'images/2024 Chevrolet Trax2.png',
+    'images/2024 Chevrolet Trax3.png',
+    'Italy',
+    'Milan',
+    250,
+    1222,
+    'white',
+    'The 2024 Chevrolet Trax is a standout subcompact SUV known for its remarkable value, attractive design, and practicality. It offers strong value, appealing looks, surprising practicality, and high fuel efficiency. However, it lacks all-wheel drive, engine upgrade options, and features hard armrests. It provides ample passenger and cargo space, complemented by a sporty cabin design, although it relies on cheaper hard plastics. Despite its small engine, the turbo-three powertrain delivers satisfactory performance, resulting in an enjoyable driving experience. The interior showcases functionality with various storage options like phone-holding bins and spacious door pockets. While technology is practical, advanced materials are limited, with higher trims offering wireless phone charging.'
+);
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    'Lexus ES 300h',
+    2019 ,
+    127,
+    'images/2019 Lexus ES 300h.png',
+    'images/2019 Lexus ES 300h1.png',
+    'images/2019 Lexus ES 300h2.png',
+    'images/2019 Lexus ES 300h3.png',
+    'Italy',
+    'Rome',
+    250,
+    1222,
+    'white',
+    'The 2019 Lexus ES 300h is a luxurious hybrid sedan that marries elegance with environmental consciousness. Combining a 2.5-liter four-cylinder engine with an electric motor, it delivers around 215 horsepower while excelling in fuel efficiency. This upscale vehicle prioritizes comfort, boasting a serene cabin furnished with premium materials and cutting-edge technology. It offers a tranquil ride, spacious seating, and a plethora of modern amenities for an indulgent travel experience. Safety takes center stage with its array of standard features such as adaptive cruise control, automatic emergency braking, and lane-keeping assistance. Its sleek exterior design complements its refined performance, making the ES 300h a choice that combines luxury with eco-consciousness for a sophisticated driving experience.'
+);
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    'Chrysler 300',
+    2014,
+    123,
+    'images/2014 Chrysler 300.png',
+    'images/2014 Chrysler 3001.png',
+    'images/2014 Chrysler 3002.png',
+    'images/2014 Chrysler 3003.png',
+    'Italy',
+    'Rome',
+    250,
+    1222,
+    'black',
+    'The 2014 Chrysler 300 is a full-size sedan that combines sleek styling with comfort and performance. It features a bold and distinctive design, characterized by a muscular stance, prominent grille, and sculpted lines. Inside, the Chrysler 300 offers a spacious and upscale cabin with high-quality materials and a range of modern amenities. It provides ample room for passengers in both the front and rear seats, along with a sizable trunk for luggage. In terms of performance, the 2014 Chrysler 300 offers a choice of V6 or V8 engines, delivering smooth and powerful acceleration. It provides a comfortable ride with responsive handling, making it suitable for both city driving and highway cruising.'
+);
+
+INSERT INTO car_info (model, year, plate_id, image_1, image_2, image_3, image_4, country, city, rental_price, distance_driven_km, color, description)
+VALUES (
+    'Toyota Celica',
+    2005,
+    123,
+    'images/2005 Toyota Celica.png',
+    'images/2005 Toyota Celica1.png',
+    'images/2005 Toyota Celica2.png',
+    'images/2005 Toyota Celica3.png',
+    'Italy',
+    'Florence',
+    250,
+    1222,
+    'black',
+    'The 2005 Toyota Celica is a compact and sporty coupe known for its sleek design, nimble handling, and reliability. With its distinctive style and efficient four-cylinder engine, it offers an enjoyable driving experience for those seeking a fun yet practical ride. The Celica accommodates up to four passengers comfortably and provides decent cargo space, making it a good choice for renters looking for an affordable and reliable compact car with a sporty edge.'
+);cololl

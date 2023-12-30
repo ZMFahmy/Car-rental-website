@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0004ff;
+  font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn:link,
+.btn:hover {
+  background-color: #0003c0;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  padding: 20px 30px;
+  justify-content: space-between;
+
+  border: 1px #aaa solid;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}

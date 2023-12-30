@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="back-btn btn">back</a>
+      <a class="sign-out-btn btn">sign out</a>
+    </nav>
+
+    <div class="filter-section">
+      <div class="options">
+        <div class="filter-sub">
+          <label class="combobox-label">Country</label>
+
+          <select name="country" class="country combobox" id="country-dropdown">
+            <option value="---">---</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Italy">Italy</option>
+          </select>
+        </div>
+
+        <div class="filter-sub">
+          <label class="combobox-label">City</label>
+
+          <select name="city" class="city combobox" id="city-dropdown"></select>
+        </div>
+
+        <div class="filter-sub">
+          <label class="combobox-label">Price</label>
+
+          <select name="country" class="price combobox" id="price-dropdown">
+            <option value="---">---</option>
+            <option value="200">Up to 200 EGP</option>
+            <option value="500">Up to 500 EGP</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <button class="filter-btn btn">filter</button>
+        <button class="drop-filter-btn btn">drop filter</button>
+      </div>
+    </div>
+
+    <p class="cars-label"></p>
+    <div id="cars-section"></div>
+
+    <div class="info-window" id="popup">
+      <div class="overlay"></div>
+      <div class="content" id="popup-content">
+        <div class="close-btn" onclick="toggleInfoWindow()">&times;</div>
+        <h1 class="title-model-name"></h1>
+
+        <div class="car-info-part"></div>
+
+        <div class="car-images-container"></div>
+
+        <div class="rent-btn-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
